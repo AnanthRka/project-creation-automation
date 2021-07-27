@@ -13,7 +13,7 @@ mkdir %1
 cd %1
 
 REM creates an empty Readme file
-echo $null >> README.md
+echo Readme file for project %1. >> README.md
 
 REM Git commands
 git init
