@@ -1,12 +1,10 @@
 @echo off
 REM Save this batch file as create.bat in C:\Windows\System32\create.bat
 REM Give full path of file below like C:\python\programs\automate_project.py
-python path\to\python\file.py %1
+python path\to\file\automate.py %1
 
-REM Enter the drive short name which has your projects below like C: or S: 
-drive_name:
 REM Now give the path of the project folder like S:\Projects\Office_Projects
-cd \Project\folder
+pushd drive\project\folder
 
 REM This creates a folder with the name of the project you mentioned as arguments
 mkdir %1
