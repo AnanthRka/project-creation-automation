@@ -8,4 +8,4 @@ The pre-conditions are
 You can simply run the command "create test-project", without quotes, in the terminal from any directory to start the program. This will create a folder "test-project" in the mentioned projects directory, open GitHub and create a repo with the same name.
 Additionally a simple README.md file is also created.
 
-For best results keep project names to minimal and try to use hyphens and underscores than spaces while naming it.
+For best results keep project names to minimal and try to use hyphens and underscores than spaces while naming it.Readme file for project . 
